@@ -86,9 +86,26 @@ body {
 }
 
 .weather-box,
+.weather-details{
+    visibility: hidden;
+}
+
+/* .weather-box,
 .weather-details,
 .not-found{
     visibility: hidden;
+} */
+
+/* .weather-box.active,
+.weather-details.active,
+.not-found.active{
+    visibility: visible;
+} */
+
+.weather-box,
+.weather-details,
+.not-found{
+    visibility: visible;
 }
 
 .weather-box img{
@@ -158,7 +175,7 @@ body {
     font-weight: 500;
 }
 
-.not-found{
+/* .not-found{
     position: absolute;
     top: 0;
     left: 0;
@@ -175,4 +192,4 @@ body {
     font-size: 22px;
     font-weight: 500;
     margin-top: 12px;
-}
+} */
